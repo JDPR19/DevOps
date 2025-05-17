@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+    .contenedor {
+        width: 95%;
+        padding: 5px;
+    }
+
+    .container_paragraf {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .image {
+        width: 95%;
+        height: auto;
+    }
+
+    h1, h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .toggle-btn {
+        left: 80%;
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1, h2 {
+        font-size: 1.3rem;
+    }
+
+    .contenedor {
+        padding: 8px;
+    }
+
+    .toggle-btn {
+        left: 85%;
+        width: 12px;
+        height: 12px;
+    }
+}
