@@ -2,7 +2,7 @@
   "version": 2,
   "public": true,
   "rewrites": [
-    { "source": "/(.*)", 
+    { "src": "/", 
     "destination": "/editor_estilos.html" }
   ]
 }
